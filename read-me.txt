@@ -1,0 +1,11 @@
+1.models
+contains the methods of controller/routes
+2.db
+contains setup commands of database
+3.routes
+contains routes 
+4.schema contains schema of todo app 
+5. static 
+contains static files like css,js
+6. view
+contains views /html content of the app 

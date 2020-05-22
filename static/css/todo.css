@@ -1,0 +1,171 @@
+/* removing basic styling and providing initial styling to elements */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    letter-spacing: 2px;
+
+
+}
+body{
+    width: 98vw;
+    height: 100vh;
+    background-color: rgb(209, 228, 192);
+}
+/* form tag  just used to send form data */
+form{
+    position: relative;
+    left: 50%;
+    top: 10%;
+    width: 1%;
+}
+/* todo app's div */
+#todo
+{
+    
+    transform: translate(-50%,0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    height: auto;
+    background-color:white;
+    text-align: center;
+
+}
+/* app heading */
+h1
+{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgb(199, 191, 191);
+}
+/* elements with half width w.r.t app's div */
+#half
+{
+    display: inline-block;
+    width: 50%;
+    height: 70px;
+}
+/* elements with full width w.r.t app's div */
+.full
+{
+    display: block;
+    width: 100%;
+    height: 70px;
+}
+input,select
+{
+    padding: 10px;
+}
+#label1
+{
+    font-size: small;
+    display:inline-block;
+    position: absolute;
+    left: 5%;
+    top: 70px;
+
+}
+#label2
+{
+    font-size: small;
+    display:inline-block;
+    position: absolute;
+    left: 5%;
+    top: 140px;
+}
+#label3
+{
+    font-size: small;
+    display:inline-block;
+    position: absolute;
+    left: 55%;
+    top: 140px;
+}
+#buttons
+{
+    display: block;
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(199, 191, 191);
+    padding-top: 20px;
+}
+.btn
+{
+    
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+}
+.btn:focus
+{
+    outline: unset;
+}
+.btn:hover
+{
+    transform: translate(0,-3px);
+    box-shadow: 10px 10px 20px rgba(145, 155, 140, 0.89);
+    
+}
+.btn:active
+{
+    transform: translate(0px,1px);
+    box-shadow: 10px 10px 20px rgba(145, 155, 140, 0.89);
+}
+.btn1
+{
+    background-color: rgba(145, 155, 140, 0.89);
+}
+.btn2
+{
+    text-decoration: none;
+    color: black;
+    padding-top: 12px;
+    background-color: rgb(235, 50, 50);
+}
+/* the added cards retrieved from database */
+.cards
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(192, 189, 189);
+}
+.part1
+{
+    display: inline-block;
+    
+    width: 20%;
+}
+.part2
+{
+    
+    width: 50%;
+    text-align: left;
+}
+.p1
+{
+    text-transform: uppercase;
+    font-size: small;
+}
+.p2
+{
+    font-size: smaller;
+}
+.p3
+{
+    display: inline;
+    padding: 5px;
+}
+.part3
+{
+    text-transform: uppercase;
+    width: 30%;
+}
